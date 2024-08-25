@@ -101,7 +101,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+The reason the text is appearing this way in your GitHub markdown preview is due to the initial backticks with the word "markdown" after them. When you start a code block in markdown using triple backticks followed by a language identifier (like `markdown`), GitHub treats everything within that block as literal text rather than rendering it as formatted markdown.
 
+
+```markdown
 # Explanation: Deleting User After Authentication
 
 ## Is the Requirement a Good Idea?
@@ -150,3 +153,5 @@ For instance, in a system where users can delete only their own accounts, both a
 ## Conclusion
 
 In conclusion, while the requirement for user deletion to be available post-authentication is fundamentally a good idea for enhancing security, it is not sufficient on its own. Proper authorization mechanisms must also be implemented to ensure that users have the correct permissions to perform such critical actions. Implementing both authentication and authorization will provide a more secure and robust application, preventing unauthorized access and accidental or malicious data loss.
+```
+
