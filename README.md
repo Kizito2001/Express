@@ -99,3 +99,32 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+
+
+
+```
+
+## How to Use
+
+1. **Backend Setup**:
+   - Ensure you have a Node.js environment set up and the necessary dependencies installed.
+   - Place the `deleteUser.js` file in your project and adjust any required paths (e.g., `UserModel` import path).
+   - Include this file in your Express server setup to register the route.
+
+2. **Frontend Integration**:
+   - Add the frontend part of the script to your HTML file, preferably at the end of the `<body>` section, or link it as an external JavaScript file.
+
+3. **Running the Application**:
+   - Start your server and navigate to the webpage with the form.
+   - Use the form to input a username and delete a user from the backend database.
+
+## Explanation of the Functionality
+
+The `deleteUser.js` script provides a simple, interactive way to manage users by allowing them to be deleted after authentication. This functionality demonstrates core principles of both backend API development and frontend user interface handling.
+
+- **Backend Logic**: Handles user authentication, authorization, and deletion in a secure manner.
+- **Frontend Logic**: Provides a form for users to input the username to delete, demonstrating basic client-server interaction.
+
+```
+
