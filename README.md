@@ -102,7 +102,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-```markdown
 # Explanation: Deleting User After Authentication
 
 ## Is the Requirement a Good Idea?
@@ -148,4 +147,6 @@ For a secure application, both authentication and authorization checks are neces
 
 For instance, in a system where users can delete only their own accounts, both authentication (to ensure the user is logged in) and authorization (to ensure they are deleting their own account) checks are required. In an admin-controlled environment, additional authorization checks (like verifying admin rights) would be necessary to allow the deletion of any user.
 
-```
+## Conclusion
+
+In conclusion, while the requirement for user deletion to be available post-authentication is fundamentally a good idea for enhancing security, it is not sufficient on its own. Proper authorization mechanisms must also be implemented to ensure that users have the correct permissions to perform such critical actions. Implementing both authentication and authorization will provide a more secure and robust application, preventing unauthorized access and accidental or malicious data loss.
