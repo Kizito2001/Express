@@ -101,10 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-The reason the text is appearing this way in your GitHub markdown preview is due to the initial backticks with the word "markdown" after them. When you start a code block in markdown using triple backticks followed by a language identifier (like `markdown`), GitHub treats everything within that block as literal text rather than rendering it as formatted markdown.
 
-
-```markdown
 # Explanation: Deleting User After Authentication
 
 ## Is the Requirement a Good Idea?
